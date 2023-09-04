@@ -27,7 +27,7 @@ const CompProps = defineComponent(
       <div>
         {JSON.stringify(props)}
         <br />
-        Object.keys(props).join(', ')
+        {Object.keys(props).join(', ')}
       </div>
     )
   }
@@ -54,7 +54,7 @@ const CompEmit = defineComponent(
         <button onClick={() => emit('test')}>Test</button>
         <button onClick={() => emit('test2')}>Test2</button>
         <button onClick={() => emit('test3')}>Test3</button>
-        <p>{JSON.stringify(Object.keys(attrs))} is []</p>
+        <p>{JSON.stringify(Object.keys(attrs))}x is []</p>
       </div>
     )
   }
