@@ -54,7 +54,7 @@ const CompEmit = defineComponent(
         <button onClick={() => emit('test')}>Test</button>
         <button onClick={() => emit('test2')}>Test2</button>
         <button onClick={() => emit('test3')}>Test3</button>
-        <p>{JSON.stringify(Object.keys(attrs))}x is []</p>
+        <p>{JSON.stringify(Object.keys(attrs))} is []</p>
       </div>
     )
   }
