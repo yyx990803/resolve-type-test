@@ -27,7 +27,7 @@ const CompProps = defineComponent(
       <div>
         {JSON.stringify(props)}
         <br />
-        Object.keys(props).join(', ')
+        {Object.keys(props).join(', ')}
       </div>
     )
   }
